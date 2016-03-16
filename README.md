@@ -1,4 +1,4 @@
-# Foundation libsass template
+# Bootstrap libsass template
 
 This is a template to start your own project that uses Grunt and libsass!
 
@@ -15,6 +15,16 @@ You'll need to have the following items installed before continuing.
 ```bash
 git clone git@github.com:zurb/foundation-libsass-template.git
 npm install && bower install
+
+or 
+
+First, create a New Project folder. Then navigate into the directory where you want all the files to be created. cd\path\to\NewProjectRootDirectory
+
+Get files in foundation
+foundation new project_name --libsass
+
+note: Since foundation offers fast files creation the above code is being used. Then just remove everything inside bower_components folder and install bootstrap using this code
+bower install bootstrap-sass-official --save
 ```
 
 While you're working on your project, run:
@@ -22,8 +32,3 @@ While you're working on your project, run:
 `grunt`
 
 And you're set!
-
-## Directory Structure
-
-  * `scss/_settings.scss`: Foundation configuration settings go in here
-  * `scss/app.scss`: Application styles go here
